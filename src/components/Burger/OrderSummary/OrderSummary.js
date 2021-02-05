@@ -3,10 +3,6 @@ import Auxiliary from "../../../hoc/Auxiliary/Auxiliary";
 import Button from "../../UI/Button/Button";
 
 class OrderSummary extends Component {
-  // This could be a function component
-  componentDidUpdate() {
-    console.log('Ordwer summery did update');
-  }
 
   render() {
     const ingredientSummery = Object.keys(this.props.ingredients).map(
